@@ -96,7 +96,7 @@ root holds only shared tooling and CI-facing scripts.
     muya/                   TypeScript rewrite of muya
                             (name: "@muyajs/core"; upstream:
                             https://github.com/marktext/muya). Built on
-                            ot-json1 + ot-text-unicode + snabbdom + marked@16
+                            ot-json1 + ot-text-unicode + snabbdom + marked@18
                             + rxjs. Self-contained: own eslint config
                             (antfu), own stylelint, own madge, own vitest
                             spec suites (CommonMark + GFM). The editor
