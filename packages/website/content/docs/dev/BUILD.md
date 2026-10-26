@@ -34,6 +34,10 @@ See [Linux development](LINUX_DEV.md) for additional tooling and troubleshooting
 
 Install Build Tools for Visual Studio 2022 with the C++ toolchain and a Windows SDK. The repository's `.npmrc` sets `msvs_version=2022` and `clang=0` for native dependency builds.
 
+These tools are required even to install dependencies. `ced` is a regular dependency without prebuilt binaries, so without them its `node-gyp` build fails with `Could not find any Visual Studio installation to use` and aborts the whole `pnpm install` before `node_modules/.bin` is linked or the root `postinstall` runs.
+
+The website's local Cloudflare runtime (`workerd`) also needs the Microsoft Visual C++ Redistributable; without it its postinstall reports `Failed to validate workerd binary`. That only affects website development.
+
 ### macOS
 
 Install Xcode Command Line Tools. The CI build sets `CXXFLAGS` to `-std=gnu++20 -stdlib=libc++` when rebuilding native modules.
