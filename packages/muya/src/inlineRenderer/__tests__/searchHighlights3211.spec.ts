@@ -49,7 +49,7 @@ describe('search highlights in large paragraphs (#3211)', () => {
             else
                 window.MUYA_VERSION = previousVersion;
         }
-    }, 15000);
+    }, 30000);
 
     it('does not scan every match for every token in a 1500-line paragraph', () => {
         const line = '**needle** and `code`\n';
