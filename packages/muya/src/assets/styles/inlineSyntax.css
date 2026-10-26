@@ -14,6 +14,24 @@
     vertical-align: middle;
 }
 
+/* The search band of a line break (see `.mu-soft-line-break` below). Kept
+   after `.mu-hide .mu-highlight`, whose equal specificity it must override,
+   and before the more specific `.mu-hide.mu-remove` rules. */
+.mu-soft-line-break > .mu-highlight,
+.mu-soft-line-break > .mu-selection,
+.mu-hard-line-break > .mu-highlight,
+.mu-hard-line-break > .mu-selection,
+.mu-line-end > .mu-highlight,
+.mu-line-end > .mu-selection {
+    position: absolute;
+    top: 0;
+
+    /* `.mu-selection` is normally inline and takes its height from the line
+       box; blockified by `position: absolute` it would collapse to zero. */
+    height: 1.3em;
+    inset-inline-start: 0;
+}
+
 /* Hide syntax markers as zero-size `inline` text, not `inline-block` — atomic
    boxes create a wrap opportunity that breaks punctuation after a link onto its
    own line (#2258 / #3025). `nowrap` stops the hidden URL's `/`,`.` from
@@ -178,21 +196,6 @@ del.mu-inline-diff-deletion {
 .mu-hard-line-break,
 .mu-line-end {
     position: relative;
-}
-
-.mu-soft-line-break > .mu-highlight,
-.mu-soft-line-break > .mu-selection,
-.mu-hard-line-break > .mu-highlight,
-.mu-hard-line-break > .mu-selection,
-.mu-line-end > .mu-highlight,
-.mu-line-end > .mu-selection {
-    position: absolute;
-    inset-inline-start: 0;
-    top: 0;
-
-    /* `.mu-selection` is normally inline and takes its height from the line
-       box; blockified by `position: absolute` it would collapse to zero. */
-    height: 1.3em;
 }
 
 /* When softNewlineAsSpace is on, collapse the \n inside a soft break span

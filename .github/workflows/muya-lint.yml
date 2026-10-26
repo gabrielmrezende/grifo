@@ -24,6 +24,9 @@ jobs:
       - name: Run ESLint (muya)
         run: pnpm -C packages/muya lint
 
+      - name: Run Stylelint (muya)
+        run: pnpm -C packages/muya lint:css
+
       - name: Run TypeScript typecheck (muya)
         run: pnpm -C packages/muya lint:types
 
