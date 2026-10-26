@@ -66,11 +66,13 @@ async function nextTick() {
 }
 
 describe('tableChessboard — plugin shape (restored, revert #4435)', () => {
+    // A cold import of the entrypoint transforms the whole package, which takes
+    // ~5s on its own on Windows — already the default budget.
     it('is exported from the package entrypoint', async () => {
         const pkg = await import('../../../index');
         expect('TableChessboard' in pkg).toBe(true);
         expect(pkg.TableChessboard).toBe(TableChessboard);
-    });
+    }, 30000);
 
     it('exposes a stable static pluginName so Muya.use registers it', () => {
         expect(TableChessboard.pluginName).toBe('tablePicker');

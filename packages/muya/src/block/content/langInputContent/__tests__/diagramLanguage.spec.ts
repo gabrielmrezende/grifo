@@ -3,12 +3,21 @@
 import type Content from '../../../base/content';
 import type Parent from '../../../base/parent';
 import type LangInputContent from '../index';
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { Muya } from '../../../../muya';
 
 // #5060: leaving a code block's language input commits the language. A diagram
 // language turns the block into a diagram block — what loading its ```lang
 // fence produces — instead of leaving a code block with no preview.
+
+// These specs assert the state conversion, not the preview. Left real, each
+// new diagram block kicks off an unawaited mermaid / vega-embed import and
+// render that keeps running into the next spec and starves its `settle()`
+// frame past the timeout. A loader that never settles keeps the preview at
+// "Loading..." and nothing outlives its spec.
+vi.mock('../../../../utils/diagram', () => ({
+    default: () => new Promise(() => {}),
+}));
 
 const bootedHosts: HTMLElement[] = [];
 let originalVersion: string | undefined;
