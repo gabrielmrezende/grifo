@@ -298,12 +298,8 @@
 
 .mu-code-block .mu-code::-webkit-scrollbar {
     display: block;
-    height: 6px;
     width: 3px;
-}
-
-.mu-code-block .mu-content {
-    white-space: inherit;
+    height: 6px;
 }
 
 .mu-code-copy {
@@ -398,6 +394,7 @@ code.mu-code .mu-code-copy:hover {
 .mu-line-numbers-rows > span {
     position: absolute;
     left: 0;
+
     width: 100%;
 
     counter-increment: mu-linenumber;
@@ -676,7 +673,6 @@ li.mu-task-list-item > span.mu-checkbox-checked::before {
 .mu-table-inner tr th::before,
 .mu-table-inner tr td::before {
     position: absolute;
-    inset: 0;
 
     box-sizing: border-box;
     width: calc(100% + 1px);
@@ -686,6 +682,7 @@ li.mu-task-list-item > span.mu-checkbox-checked::before {
 
     content: '';
     pointer-events: none;
+    inset: 0;
 }
 
 .mu-table-inner tr th:first-child,
@@ -1017,6 +1014,10 @@ pre.mu-active.mu-fenced-code::after {
     overflow-wrap: break-word;
 
     outline: none;
+}
+
+.mu-code-block .mu-content {
+    white-space: inherit;
 }
 
 .mu-content:empty::after {
