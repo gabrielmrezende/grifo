@@ -102,21 +102,21 @@
       "reportBug": "バグの報告",
       "viewSource": "ソースコードの表示",
       "followUs": "フォローする",
-      "support": "MarkText を支援",
+      "support": "Grifo を支援",
       "license": "ライセンス",
       "about": "バージョン情報",
       "checkUpdates": "更新の確認"
     },
     "marktext": {
-      "title": "MarkText",
-      "about": "MarkText について",
+      "title": "Grifo",
+      "about": "Grifo について",
       "checkUpdates": "更新の確認...",
       "preferences": "環境設定",
       "services": "サービス",
-      "hide": "MarkText を隠す",
+      "hide": "Grifo を隠す",
       "hideOthers": "他を隠す",
       "showAll": "すべて表示",
-      "quit": "MarkText を終了"
+      "quit": "Grifo を終了"
     },
     "view": {
       "view": "表示",
@@ -394,7 +394,7 @@
   },
   "import": {
     "title": "インポートまたは開く",
-    "description": "ここにドラッグして MarkText にコンテンツをインポート"
+    "description": "ここにドラッグして Grifo にコンテンツをインポート"
   },
   "preferences": {
     "title": "環境設定",
@@ -425,10 +425,10 @@
         "hideScrollbar": "スクロールバーを非表示にするかどうか",
         "wordWrapInToc": "目次で自動改行を有効にするかどうか",
         "fileSortBy": "開いたフォルダー内のファイルを作成時刻、変更時刻、タイトルで並べ替え",
-        "startUpAction": "MarkText 起動後のアクション、最後に編集したコンテンツを開く、指定されたフォルダーを開く、または空白ページ",
+        "startUpAction": "Grifo 起動後のアクション、最後に編集したコンテンツを開く、指定されたフォルダーを開く、または空白ページ",
         "restoreLayoutState": "起動時に前回のエディター状態を復元",
         "defaultDirectoryToOpen": "startUp=folder の場合に起動時に開かれるデフォルトディレクトリ",
-        "language": "MarkText が使用する言語",
+        "language": "Grifo が使用する言語",
         "editorFontFamily": "エディターのフォントファミリー",
         "fontSize": "フォントサイズ (ピクセル)",
         "lineHeight": "行の高さ",
@@ -453,7 +453,7 @@
         "preferLooseListItem": "優先されるリストタイプ",
         "bulletListMarker": "箇条書きリストで使用されるマーカー",
         "orderListDelimiter": "順序付きリストで使用される区切り文字",
-        "preferHeadingStyle": "MarkText で優先される見出しスタイル",
+        "preferHeadingStyle": "Grifo で優先される見出しスタイル",
         "tabSize": "タブを x個 のスペースに置き換える",
         "listIndentation": "リストのインデントを選択",
         "frontmatterType": "フロントマターのタイプ",
@@ -470,10 +470,10 @@
         "isHtmlEnabled": "HTML レンダリングを有効にする",
         "softNewlineAsSpace": "ソフト改行をスペースとして扱う",
         "sequenceTheme": "シーケンス図のテーマ",
-        "mermaidLightTheme": "MarkText のライトテーマ用 Mermaid テーマ",
-        "mermaidDarkTheme": "MarkText のダークテーマ用 Mermaid テーマ",
+        "mermaidLightTheme": "Grifo のライトテーマ用 Mermaid テーマ",
+        "mermaidDarkTheme": "Grifo のダークテーマ用 Mermaid テーマ",
         "plantumlServer": "PlantUML サーバーの URL",
-        "theme": "MarkText で使用するテーマの選択",
+        "theme": "Grifo で使用するテーマの選択",
         "followSystemTheme": "システムのテーマに従う",
         "lightModeTheme": "システムがライトモードの時に使用するテーマ",
         "darkModeTheme": "システムがダークモードの時に使用するテーマ",
@@ -697,7 +697,7 @@
         "neverDetected": "検出されたことがない",
         "neverSuccessful": "成功したことがない"
       },
-      "defaultBehavior": "MarkText に画像を貼り付けまたはドラッグした後のデフォルト動作"
+      "defaultBehavior": "Grifo に画像を貼り付けまたはドラッグした後のデフォルト動作"
     },
     "markdown": {
       "title": "Markdown",
@@ -728,10 +728,10 @@
           "simple": "シンプル"
         },
         "mermaidLightTheme": {
-          "title": "MarkText のライトテーマ用 Mermaid テーマ"
+          "title": "Grifo のライトテーマ用 Mermaid テーマ"
         },
         "mermaidDarkTheme": {
-          "title": "MarkText のダークテーマ用 Mermaid テーマ"
+          "title": "Grifo のダークテーマ用 Mermaid テーマ"
         },
         "plantumlServer": {
           "title": "PlantUML サーバーの URL"
@@ -829,7 +829,7 @@
   },
   "commands": {
     "mt": {
-      "hide": "MarkText を隠す",
+      "hide": "Grifo を隠す",
       "hideOthers": "他を隠す"
     },
     "file": {
@@ -986,7 +986,7 @@
     "fileExists": "ファイルが既に存在します: {filename}",
     "files": "ファイル",
     "importWarning": "インポート警告",
-    "installPandoc": "Pandoc が見つかりません。インストールするか、環境変数 MARKTEXT_PANDOC に pandoc の実行ファイルのパスを設定して MarkText を再起動してください。",
+    "installPandoc": "Pandoc が見つかりません。インストールするか、環境変数 MARKTEXT_PANDOC に pandoc の実行ファイルのパスを設定して Grifo を再起動してください。",
     "exportWarning": "エクスポートの警告",
     "exportWarningMore": "…ほか {count} 件",
     "keepOpen": "開いたままにする",
@@ -1003,7 +1003,7 @@
     "configSchemaViolation": "設定スキーマ違反",
     "copyError": "コピーエラー",
     "initializationFailed": "初期化に失敗しました {hint}",
-    "otherInstanceDetected": "MarkText の別のインスタンスが既に実行中です",
+    "otherInstanceDetected": "Grifo の別のインスタンスが既に実行中です",
     "report": "報告",
     "startupError": "起動エラー",
     "terminatedDueToError": "エラーにより終了",

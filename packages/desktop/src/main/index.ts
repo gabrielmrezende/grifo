@@ -49,7 +49,7 @@ initializeLogger(appEnvironment)
 
 crashReporter.start({
   companyName: '',
-  productName: 'MarkText',
+  productName: 'Grifo',
   uploadToServer: false, // collect locally
   compress: true
 })
@@ -76,7 +76,7 @@ if (!process.mas && !import.meta.env.DEV) {
 
 registerSandboxIpcHandlers()
 
-electronApp.setAppUserModelId('com.electron.marktext')
+electronApp.setAppUserModelId('com.github.gabrielmrezende.grifo')
 
 app.on('browser-window-created', (_, window) => {
   optimizer.watchWindowShortcuts(window)

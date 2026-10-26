@@ -43,7 +43,7 @@ class EditorBufferStore extends TypedEmitter<EditorBufferStoreEvents> {
     this.editorBufferStorePath = editorBufferStorePath
     // Keep buffer stores on disk rather than retaining all documents in memory.
     this.bufferStores = null
-    this.serviceName = 'marktext'
+    this.serviceName = 'grifo'
     this.encryptKeys = []
 
     this.init()

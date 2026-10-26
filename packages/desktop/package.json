@@ -1,34 +1,20 @@
 {
   "name": "marktext",
+  "productName": "Grifo",
   "version": "0.24.0-dev",
-  "description": "MarkText",
+  "description": "Grifo — a WYSIWYG Markdown editor, based on MarkText",
   "main": "./out/main/index.js",
   "author": {
-    "name": "Jocs",
-    "email": "ransixi@gmail.com",
-    "url": "https://github.com/Jocs"
+    "name": "gabrielmrezende",
+    "url": "https://github.com/gabrielmrezende"
   },
-  "maintainer": [
-    {
-      "name": "Jocs",
-      "email": "ransixi@gmail.com",
-      "url": "https://github.com/Jocs"
-    },
-    {
-      "name": "Felix Häusler",
-      "email": "hfelix@protonmail.ch",
-      "url": "https://github.com/fxha"
-    },
-    {
-      "name": "Tkaixiang",
-      "email": "tkaixiang@gmail.com",
-      "url": "https://github.com/Tkaixiang"
-    }
-  ],
-  "homepage": "https://github.com/marktext/marktext",
+  "homepage": "https://github.com/gabrielmrezende/grifo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marktext/marktext.git"
+    "url": "git+https://github.com/gabrielmrezende/grifo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielmrezende/grifo/issues"
   },
   "scripts": {
     "minify-locales": "tsx ../../scripts/minify-locales.ts",

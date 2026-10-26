@@ -102,21 +102,21 @@
       "reportBug": "Сообщить об ошибке",
       "viewSource": "Исходный код",
       "followUs": "Подписаться на нас",
-      "support": "Поддержать MarkText",
+      "support": "Поддержать Grifo",
       "license": "Лицензия",
       "about": "О программе",
       "checkUpdates": "Проверить обновления"
     },
     "marktext": {
-      "title": "MarkText",
-      "about": "О MarkText",
+      "title": "Grifo",
+      "about": "О Grifo",
       "checkUpdates": "Проверить обновления...",
       "preferences": "Настройки",
       "services": "Службы",
-      "hide": "Скрыть MarkText",
+      "hide": "Скрыть Grifo",
       "hideOthers": "Скрыть остальные",
       "showAll": "Показать все",
-      "quit": "Выйти из MarkText"
+      "quit": "Выйти из Grifo"
     },
     "view": {
       "view": "Вид",
@@ -394,7 +394,7 @@
   },
   "import": {
     "title": "Импорт или открытие",
-    "description": "Перетащите сюда, чтобы добавить файлы в MarkText"
+    "description": "Перетащите сюда, чтобы добавить файлы в Grifo"
   },
   "preferences": {
     "title": "Настройки",
@@ -424,10 +424,10 @@
         "hideScrollbar": "Скрывать полосы прокрутки",
         "wordWrapInToc": "Включать перенос слов в оглавлении",
         "fileSortBy": "Сортировать файлы в открытой папке по времени создания, изменения и имени",
-        "startUpAction": "Действие после запуска MarkText: открыть последнее содержимое, указанную папку или пустую страницу",
+        "startUpAction": "Действие после запуска Grifo: открыть последнее содержимое, указанную папку или пустую страницу",
         "restoreLayoutState": "Восстанавливать предыдущее состояние редактора при запуске",
         "defaultDirectoryToOpen": "Папка по умолчанию, открываемая при запуске, если startUp=folder",
-        "language": "Язык интерфейса MarkText",
+        "language": "Язык интерфейса Grifo",
         "editorFontFamily": "Семейство шрифтов редактора",
         "fontSize": "Размер шрифта в пикселях",
         "lineHeight": "Высота строки",
@@ -452,7 +452,7 @@
         "preferLooseListItem": "Предпочитаемый тип списка",
         "bulletListMarker": "Маркер маркированного списка",
         "orderListDelimiter": "Разделитель нумерованного списка",
-        "preferHeadingStyle": "Предпочитаемый стиль заголовков в MarkText",
+        "preferHeadingStyle": "Предпочитаемый стиль заголовков в Grifo",
         "tabSize": "Заменять табуляцию на x пробелов",
         "listIndentation": "Выберите отступ списка",
         "frontmatterType": "Тип front matter",
@@ -469,10 +469,10 @@
         "isHtmlEnabled": "Включить рендеринг HTML",
         "softNewlineAsSpace": "Считать мягкие переносы строк пробелами",
         "sequenceTheme": "Тема диаграмм последовательностей",
-        "mermaidLightTheme": "Тема Mermaid для светлых тем MarkText",
-        "mermaidDarkTheme": "Тема Mermaid для тёмных тем MarkText",
+        "mermaidLightTheme": "Тема Mermaid для светлых тем Grifo",
+        "mermaidDarkTheme": "Тема Mermaid для тёмных тем Grifo",
         "plantumlServer": "URL сервера PlantUML",
-        "theme": "Выберите тему, используемую в MarkText",
+        "theme": "Выберите тему, используемую в Grifo",
         "followSystemTheme": "Следовать системной теме",
         "lightModeTheme": "Тема для светлого режима системы",
         "darkModeTheme": "Тема для тёмного режима системы",
@@ -697,7 +697,7 @@
         "pleaseInstall": "Пожалуйста, установите",
         "scriptPath": "Путь к скрипту"
       },
-      "defaultBehavior": "Поведение по умолчанию после вставки или перетаскивания изображения в MarkText"
+      "defaultBehavior": "Поведение по умолчанию после вставки или перетаскивания изображения в Grifo"
     },
     "markdown": {
       "title": "Markdown",
@@ -728,10 +728,10 @@
           "simple": "Простая"
         },
         "mermaidLightTheme": {
-          "title": "Тема Mermaid для светлых тем MarkText"
+          "title": "Тема Mermaid для светлых тем Grifo"
         },
         "mermaidDarkTheme": {
-          "title": "Тема Mermaid для тёмных тем MarkText"
+          "title": "Тема Mermaid для тёмных тем Grifo"
         },
         "plantumlServer": {
           "title": "URL сервера PlantUML"
@@ -829,7 +829,7 @@
   },
   "commands": {
     "mt": {
-      "hide": "Скрыть MarkText",
+      "hide": "Скрыть Grifo",
       "hideOthers": "Скрыть остальные"
     },
     "file": {
@@ -986,7 +986,7 @@
     "fileExists": "Файл существует {filename}",
     "files": "Файлы",
     "importWarning": "Предупреждение импорта",
-    "installPandoc": "Pandoc не найден. Установите его или задайте переменную окружения MARKTEXT_PANDOC с путём к бинарнику pandoc и перезапустите MarkText.",
+    "installPandoc": "Pandoc не найден. Установите его или задайте переменную окружения MARKTEXT_PANDOC с путём к бинарнику pandoc и перезапустите Grifo.",
     "exportWarning": "Предупреждение экспорта",
     "exportWarningMore": "…и ещё {count}",
     "keepOpen": "Оставить открытым",
@@ -1003,7 +1003,7 @@
     "configSchemaViolation": "Нарушение схемы конфигурации",
     "copyError": "Ошибка копирования",
     "initializationFailed": "Ошибка инициализации {hint}",
-    "otherInstanceDetected": "Другой экземпляр MarkText уже запущен",
+    "otherInstanceDetected": "Другой экземпляр Grifo уже запущен",
     "report": "Сообщить",
     "startupError": "Ошибка запуска",
     "terminatedDueToError": "Завершено из-за ошибки",

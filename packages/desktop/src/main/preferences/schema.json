@@ -54,7 +54,7 @@
     "default": "asc"
   },
   "lastOpenedFolder": {
-    "description": "General--The last folder that was opened in MarkText.--internal",
+    "description": "General--The last folder that was opened in Grifo.--internal",
     "type": "string"
   },
   "defaultOpenMode": {
@@ -63,7 +63,7 @@
     "default": "edit"
   },
   "startUpAction": {
-    "description": "General--The action after MarkText startup, open the last opened folder, open the specified folder or blank page",
+    "description": "General--The action after Grifo startup, open the last opened folder, open the specified folder or blank page",
     "enum": ["folder", "openLastFolder", "blank", "restoreAll"],
     "default": "restoreAll"
   },
@@ -72,7 +72,7 @@
     "type": "string"
   },
   "language": {
-    "description": "General--The language MarkText uses. No default on purpose: the language is auto-detected from the system locale on first start (after app ready), so a schema default would always win over detection.",
+    "description": "General--The language Grifo uses. No default on purpose: the language is auto-detected from the system locale on first start (after app ready), so a schema default would always win over detection.",
     "type": "string"
   },
   "editorFontFamily": {
@@ -247,7 +247,7 @@
     "default": "."
   },
   "preferHeadingStyle": {
-    "description": "Markdown--The preferred heading style in MarkText",
+    "description": "Markdown--The preferred heading style in Grifo",
     "enum": ["atx", "setext"],
     "default": "atx"
   },
@@ -332,7 +332,7 @@
     "default": "hand"
   },
   "mermaidLightTheme": {
-    "description": "Markdown--Mermaid theme for light MarkText themes",
+    "description": "Markdown--Mermaid theme for light Grifo themes",
     "enum": [
       "default",
       "forest",
@@ -349,7 +349,7 @@
     "default": "default"
   },
   "mermaidDarkTheme": {
-    "description": "Markdown--Mermaid theme for dark MarkText themes",
+    "description": "Markdown--Mermaid theme for dark Grifo themes",
     "enum": [
       "default",
       "forest",
@@ -372,7 +372,7 @@
     "default": "https://www.plantuml.com/plantuml"
   },
   "theme": {
-    "description": "Theme--Select the theme used in MarkText",
+    "description": "Theme--Select the theme used in Grifo",
     "type": "string",
     "default": "light"
   },

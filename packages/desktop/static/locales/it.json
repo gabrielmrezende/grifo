@@ -102,18 +102,18 @@
       "reportBug": "Segnala un bug",
       "viewSource": "Visualizza il codice sorgente",
       "followUs": "Seguici",
-      "support": "Supporta MarkText",
+      "support": "Supporta Grifo",
       "license": "Licenza",
       "about": "Info",
       "checkUpdates": "Controllo aggiornamenti"
     },
     "marktext": {
-      "title": "MarkText",
-      "about": "Info su MarkText",
+      "title": "Grifo",
+      "about": "Info su Grifo",
       "checkUpdates": "Controllo aggiornamenti…",
       "preferences": "Preferenze",
       "services": "Servizi",
-      "hide": "Nascondi MarkText",
+      "hide": "Nascondi Grifo",
       "hideOthers": "Nascondi altri",
       "showAll": "Mostra tutti",
       "quit": "Esci"
@@ -394,7 +394,7 @@
   },
   "import": {
     "title": "Importa o apri",
-    "description": "Deposita qui il tuo materiale per importarlo in MarkText"
+    "description": "Deposita qui il tuo materiale per importarlo in Grifo"
   },
   "preferences": {
     "title": "Preferenze",
@@ -423,10 +423,10 @@
         "hideScrollbar": "Nascondi la barra di scorrimento (Sì/No)",
         "wordWrapInToc": "Consenti di andare a caporiga nel sommario (Sì/No)",
         "fileSortBy": "Ordinamento dei file nella cartella aperta per data di creazione, data di modifica, per nome",
-        "startUpAction": "Azione da compiere all'avvio di MarkText: aprire il contenuto modificato più recentemente, aprire la cartella specificata o aprire una pagina vuota",
+        "startUpAction": "Azione da compiere all'avvio di Grifo: aprire il contenuto modificato più recentemente, aprire la cartella specificata o aprire una pagina vuota",
         "restoreLayoutState": "All'avvio ripristinare lo stato precedente dell'editor",
         "defaultDirectoryToOpen": "Cartella di avvio predefinita da aprire quando startUp=folder",
-        "language": "Lingua dell'interfaccia-utente di MarkText",
+        "language": "Lingua dell'interfaccia-utente di Grifo",
         "editorFontFamily": "Famiglia di caratteri dell'editor",
         "fontSize": "Dimensione caratteri (in pixel)",
         "lineHeight": "Altezza linea",
@@ -451,7 +451,7 @@
         "preferLooseListItem": "Tipo di elenco preferito",
         "bulletListMarker": "Marcatore di elenchi puntati",
         "orderListDelimiter": "Delimitatore di elenchi ordinati",
-        "preferHeadingStyle": "Stile preferito delle intestazioni in MarkText",
+        "preferHeadingStyle": "Stile preferito delle intestazioni in Grifo",
         "tabSize": "Sostituisci il carattere di tabulazione con 'x' spazi",
         "listIndentation": "Seleziona il rientro dell'elenco",
         "frontmatterType": "Tipo di Front Matter",
@@ -468,10 +468,10 @@
         "isHtmlEnabled": "Abilita il rendering HTML",
         "softNewlineAsSpace": "Tratta i caratteri di fine riga 'morbidi' (soft newlines) come spazi",
         "sequenceTheme": "Tema del diagramma di sequenza",
-        "mermaidLightTheme": "Tema Mermaid per i temi chiari di MarkText",
-        "mermaidDarkTheme": "Tema Mermaid per i temi scuri di MarkText",
+        "mermaidLightTheme": "Tema Mermaid per i temi chiari di Grifo",
+        "mermaidDarkTheme": "Tema Mermaid per i temi scuri di Grifo",
         "plantumlServer": "URL del server PlantUML",
-        "theme": "Seleziona il tema da usare in MarkText",
+        "theme": "Seleziona il tema da usare in Grifo",
         "followSystemTheme": "Segui il tema di sistema",
         "lightModeTheme": "Tema da usare quando il sistema è in modalità chiara",
         "darkModeTheme": "Tema da usare quando il sistema è in modalità scura",
@@ -697,7 +697,7 @@
         "pleaseInstall": "Installare, pregoe",
         "scriptPath": "Percorso (path) dello script"
       },
-      "defaultBehavior": "Comportamento predefinito dopo aver incollato o trascinato l'immagine in MarkText"
+      "defaultBehavior": "Comportamento predefinito dopo aver incollato o trascinato l'immagine in Grifo"
     },
     "markdown": {
       "title": "Markdown",
@@ -728,10 +728,10 @@
           "simple": "Semplice"
         },
         "mermaidLightTheme": {
-          "title": "Tema Mermaid per i temi chiari di MarkText"
+          "title": "Tema Mermaid per i temi chiari di Grifo"
         },
         "mermaidDarkTheme": {
-          "title": "Tema Mermaid per i temi scuri di MarkText"
+          "title": "Tema Mermaid per i temi scuri di Grifo"
         },
         "plantumlServer": {
           "title": "URL del server PlantUML"
@@ -829,7 +829,7 @@
   },
   "commands": {
     "mt": {
-      "hide": "Nascondi MarkText",
+      "hide": "Nascondi Grifo",
       "hideOthers": "Nascondi altri"
     },
     "file": {
@@ -986,7 +986,7 @@
     "fileExists": "Il file {filename} esiste",
     "files": "File",
     "importWarning": "Avviso per l'importazione",
-    "installPandoc": "Pandoc non trovato. Installarlo o impostare la variabile d'ambiente MARKTEXT_PANDOC per l'eseguibile pandoc e riavviare MarkText.",
+    "installPandoc": "Pandoc non trovato. Installarlo o impostare la variabile d'ambiente MARKTEXT_PANDOC per l'eseguibile pandoc e riavviare Grifo.",
     "exportWarning": "Avviso per l'esportazione",
     "exportWarningMore": "…e {count} più",
     "keepOpen": "Mantieni aperto",
@@ -1003,7 +1003,7 @@
     "configSchemaViolation": "Violazione dello schema di configurazione",
     "copyError": "Copia l'errore",
     "initializationFailed": "Inizializzazione non riuscita: {hint}",
-    "otherInstanceDetected": "Un'altra istanza di MarkText è già in esecuzione",
+    "otherInstanceDetected": "Un'altra istanza di Grifo è già in esecuzione",
     "report": "Rapporto",
     "startupError": "Errore iniziale",
     "terminatedDueToError": "Terminato a causa di un errore",
